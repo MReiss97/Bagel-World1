@@ -507,14 +507,14 @@ body.dark .logo img {
   -webkit-user-select: none; 
   -moz-user-select: none; 
   -ms-user-select: none; 
-  color: #986969;
+  color: #605e5e;
   height: 50px;
   line-height: 35px;
   font-size: 30px;
   text-align: center;
 }
 .accordionPanelTab:hover {
-  color: #ff8800;
+  color: rgb(43, 44, 112);
 }
 .accordionPanelContent {
   font-family: 'Raleway', sans-serif;
@@ -525,7 +525,7 @@ body.dark .logo img {
   font-size: 20px;
 }
 .highlight {
-  color: #986969;
+  color: #605e5e;
   background-color: #ededed;
   border-style: solid;
   border-color: black;
@@ -717,48 +717,6 @@ footer {
 	font-size: .7em;
 	text-transform: uppercase;
 	color: #999;
-}
-#signUp {
-	margin-top: 10px;
-	padding: 0 20px 15px 20px;
-	border: 1px solid #bbb;
-}
-#signUp legend {
-	font-size: 2em;
-	font-weight: 200;
-	padding: 0 .2em;
-}
-#signUp label {
-	display: block;
-	padding-top: 1em;
-}
-#signUp label:first-of-type {
-	margin-top: -.9em;
-}
-#nameLabel {
-	margin-top: -1em;
-}
-#submit, #clearCookie {
-	display: block;
-	font-size: 1em;
-	color: #FFF;
-	text-transform: uppercase;
-	background: #ff8800;
-	padding: .8em 1em .7em;
-	border: 0;
-	border-bottom: 3px solid #ca6d02;
-	margin-top: 15px;
-}
-.textfield {
-  font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-	padding: 7px;
-	background: #efefef;
-	border: 1px solid #bbb;
-	width: 97%;
-}
-.textfield:focus {
-	background: #FBF8D2;
 }
 
 .image1{
