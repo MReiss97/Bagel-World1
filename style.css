@@ -521,7 +521,7 @@ body.dark .logo img {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
-  height: 900px;
+  height: 500px;
   font-size: 20px;
 }
 .highlight {
@@ -530,6 +530,7 @@ body.dark .logo img {
   border-style: solid;
   border-color: black;
 }
+
 
 .hovereffect {
   width: 100%;
@@ -766,3 +767,19 @@ footer {
 
 }
 
+.top {
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
