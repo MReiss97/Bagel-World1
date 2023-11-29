@@ -507,29 +507,30 @@ body.dark .logo img {
   -webkit-user-select: none; 
   -moz-user-select: none; 
   -ms-user-select: none; 
-  color: #986969;
+  color: #605e5e;
   height: 50px;
   line-height: 35px;
   font-size: 30px;
   text-align: center;
 }
 .accordionPanelTab:hover {
-  color: #ff8800;
+  color: rgb(43, 44, 112);
 }
 .accordionPanelContent {
   font-family: 'Raleway', sans-serif;
   overflow: hidden;
   margin: 0px;
   padding: 0px;
-  height: 900px;
+  height: 500px;
   font-size: 20px;
 }
 .highlight {
-  color: #986969;
+  color: #605e5e;
   background-color: #ededed;
   border-style: solid;
   border-color: black;
 }
+
 
 .hovereffect {
   width: 100%;
@@ -717,48 +718,6 @@ footer {
 	text-transform: uppercase;
 	color: #999;
 }
-#signUp {
-	margin-top: 10px;
-	padding: 0 20px 15px 20px;
-	border: 1px solid #bbb;
-}
-#signUp legend {
-	font-size: 2em;
-	font-weight: 200;
-	padding: 0 .2em;
-}
-#signUp label {
-	display: block;
-	padding-top: 1em;
-}
-#signUp label:first-of-type {
-	margin-top: -.9em;
-}
-#nameLabel {
-	margin-top: -1em;
-}
-#submit, #clearCookie {
-	display: block;
-	font-size: 1em;
-	color: #FFF;
-	text-transform: uppercase;
-	background: #ff8800;
-	padding: .8em 1em .7em;
-	border: 0;
-	border-bottom: 3px solid #ca6d02;
-	margin-top: 15px;
-}
-.textfield {
-  font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-	padding: 7px;
-	background: #efefef;
-	border: 1px solid #bbb;
-	width: 97%;
-}
-.textfield:focus {
-	background: #FBF8D2;
-}
 
 .image1{
   height: 220px;
@@ -766,3 +725,74 @@ footer {
 
 }
 
+.top {
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.img1{
+  height: 150px !important;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.hero{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  background-size: cover;
+  position: relative;
+  min-height: 60vh;
+  padding: 160px 0 60px 0;
+}
+
+.section-bg {
+  background-color: #eee;
+}
+
+ul{
+  list-style-type: none
+}
