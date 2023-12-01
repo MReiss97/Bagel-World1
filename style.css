@@ -508,12 +508,14 @@ body.dark .logo img {
   -moz-user-select: none; 
   -ms-user-select: none; 
   color: #605e5e;
+  color: #605e5e;
   height: 50px;
   line-height: 35px;
   font-size: 30px;
   text-align: center;
 }
 .accordionPanelTab:hover {
+  color: rgb(43, 44, 112);
   color: rgb(43, 44, 112);
 }
 .accordionPanelContent {
@@ -522,14 +524,17 @@ body.dark .logo img {
   margin: 0px;
   padding: 0px;
   height: 500px;
+  height: 500px;
   font-size: 20px;
 }
 .highlight {
+  color: #605e5e;
   color: #605e5e;
   background-color: #ededed;
   border-style: solid;
   border-color: black;
 }
+
 
 
 .hovereffect {
@@ -725,6 +730,22 @@ footer {
 
 }
 
+.top {
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
 .top {
   position: sticky;
   bottom: 20px;      
