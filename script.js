@@ -9,7 +9,7 @@ document.getElementById('press-quote').textContent =  quotesArray[randomNumber].
 
 document.getElementById("hoursMarlboroContent").style.display = "none"; // Sets the style for the content to nothing
 document.getElementById("contactMarlboroContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("hoursMarlboroContent").style.display = "none"; // Sets the style for the content to nothing
+document.getElementById("hoursManalapanContent").style.display = "none"; // Sets the style for the content to nothing
 document.getElementById("contactManalapanContent").style.display = "none"; // Sets the style for the content to nothing
 
 function hidePanels () {
