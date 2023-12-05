@@ -11,14 +11,12 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  
-
+ 
 </head>
 
 <body>
@@ -63,12 +61,15 @@
   <section id="hero" class="hero d-flex align-items-center section-bg">
     <div class="container">
       <div class="row justify-content-between gy-5">
-        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start  text-lg-start">
-          <h1 data-aos="fade-up" class="aos-init aos-animate">Enjoy a Fresh,<br>Delicious Bagel</h1>
-          <p data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">At Bagel World, we strive to create high quality bagels to satifsy our customer base.</p>
+        <div
+          class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start  text-lg-start">
+          <h1 data-aos="fade-up" class="aos-init aos-animate">Bagel World</h1>
+          <p data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">Enjoy a fresh, delicious bagel at
+            Bagel World. We strive to create high quality bagels to satifsy our customer base.</p>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="img/bagelimage1.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-out" data-aos-delay="300">
+          <img src="img/bagelimage1.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-out"
+            data-aos-delay="300">
         </div>
       </div>
     </div>
@@ -180,12 +181,41 @@
       <div class="col-md-12">
         <div class="jumbotron border border-dark page" id="home">
           <p class="p6 text-center">What are they saying about us:</p>
-          <p class="p1">
-
-          </p>
-
-        </div>
+          <div class="slider">
+            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+            <div class="slider__inner">
+              <div class="slider__contents">
+                <img src="img/bagelimage1.png" style="height: 150px; width: 180px;">
+            
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                <p class="slider__caption1">Sara</p>
+                <p class="slider__caption2">Customer</p>
+              </div>
+              <div class="slider__contents">
+                <h2 class="slider__caption">newspaper-o</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+              </div>
+              <div class="slider__contents">
+                <h2 class="slider__caption">television</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+              </div>
+              <div class="slider__contents">
+                <h2 class="slider__caption">diamond</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                
+              </div>
+            </div>
+          </div>
       </div>
+    </div>
     </div>
     <div class="row">
       <div class="col-md-12">
@@ -209,7 +239,7 @@
         </div>
       </div>
     </div>
-      <div class="row">
+    <div class="row">
       <div class="col-md-12">
         <div class="jumbotron border border-dark page" id="backstory">
           <p id="press-quote">
@@ -226,8 +256,8 @@
       </div>
     </div>
 
-    </div>
-    
+  </div>
+
   </div>
 
   </div>
@@ -274,9 +304,11 @@
   </div>
 
   <script src="script.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </body>
 
 </html>
