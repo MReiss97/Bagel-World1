@@ -810,7 +810,7 @@ ul{
           appearance: none;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-          margin-top: 400px;
+          margin-top: 600px;
 }
 .slider__nav:checked {
   -webkit-animation: check 0.4s linear forwards;
@@ -913,4 +913,16 @@ ul{
 
 .checked {
   color: orange;
+}
+
+.testimonial{
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.img-fluid{
+  max-width: 80%;
+  height: 250px !important;
 }
