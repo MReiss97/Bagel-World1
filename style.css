@@ -705,8 +705,8 @@ body.dark .logo img {
 }
 
 .story1{
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
 }
 
 .p1{
@@ -956,4 +956,14 @@ ul{
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.important{
+  border-left: 4px solid rgb(43, 44, 112);
+  padding-left: 1em;
+}
+
+.menutext{
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
 }
